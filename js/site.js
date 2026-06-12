@@ -5,6 +5,20 @@ const GI = {
   channelUrl: "https://www.youtube.com/@golden_insights",
   tableauProfile: "https://public.tableau.com/app/profile/samantha.cohn",
 
+  /* Curated topic order for shelves, chips, and the home browse section.
+     Tags not listed here still show up, appended after these. */
+  topics: [
+    { tag: "Charts", icon: "📊" },
+    { tag: "Design & UX", icon: "🎨" },
+    { tag: "Filters & Interactivity", icon: "🎛️" },
+    { tag: "Quick Tips & Fixes", icon: "⚡" },
+    { tag: "Full Dashboard Builds", icon: "🏗️" },
+    { tag: "KPI & Cards", icon: "📈" },
+    { tag: "Calculations & LOD", icon: "🧮" },
+    { tag: "Maps", icon: "🗺️" },
+    { tag: "Tutorials", icon: "🎓", label: "More tutorials" },
+  ],
+
   async load(name) {
     const res = await fetch(`data/${name}.json`);
     return res.json();
@@ -33,12 +47,33 @@ const GI = {
     return s.replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
   },
 
-  /* --- video card: thumbnail first, swap to iframe on click (lite embed) --- */
+  tagCounts(videos) {
+    const counts = {};
+    videos.forEach(v => (v.tags || []).forEach(t => { counts[t] = (counts[t] || 0) + 1; }));
+    return counts;
+  },
+
+  orderedTags(counts) {
+    const known = GI.topics.map(t => t.tag).filter(t => counts[t]);
+    const extra = Object.keys(counts).filter(t => !known.includes(t))
+      .sort((a, b) => counts[b] - counts[a]);
+    return [...known, ...extra];
+  },
+
+  topicInfo(tag) {
+    return GI.topics.find(t => t.tag === tag) || { tag, icon: "📺" };
+  },
+
+  /* --- video card: thumbnail first, swap to iframe on click (lite embed) ---
+     hq720 is true 16:9; hqdefault is 4:3 with black bars baked in, so it is
+     only a last-resort fallback after the (also 16:9) mqdefault. */
   videoCard(v) {
     const card = GI.el(`
       <article class="card">
         <div class="media" title="Play video">
-          <img loading="lazy" src="https://i.ytimg.com/vi/${v.id}/hqdefault.jpg" alt="${GI.esc(v.title)}">
+          <img loading="lazy" src="https://i.ytimg.com/vi/${v.id}/hq720.jpg"
+               onerror="this.onerror=null;this.src='https://i.ytimg.com/vi/${v.id}/mqdefault.jpg'"
+               alt="${GI.esc(v.title)}">
           ${v.length ? `<span class="duration">${v.length}</span>` : ""}
           <div class="play"><span>&#9658;</span></div>
         </div>
@@ -100,17 +135,6 @@ const GI = {
     document.body.appendChild(overlay);
   },
 
-  /* --- sunny short card: opens the Short on YouTube --- */
-  shortCard(s) {
-    const card = GI.el(`
-      <a class="sunny-card" href="https://www.youtube.com/shorts/${s.id}" target="_blank" rel="noopener" title="${GI.esc(s.title)}">
-        <img loading="lazy" src="https://i.ytimg.com/vi/${s.id}/oar2.jpg"
-             onerror="this.src='https://i.ytimg.com/vi/${s.id}/hqdefault.jpg';this.onerror=null" alt="${GI.esc(s.title)}">
-        <div class="label">${GI.esc(s.title)}</div>
-      </a>`);
-    return card;
-  },
-
   mount(sel, nodes) {
     const root = document.querySelector(sel);
     root.innerHTML = "";
@@ -122,9 +146,20 @@ const GI = {
 /* ---------- page initializers ---------- */
 
 async function initHome() {
-  const [videos, dashboards, shorts] = await Promise.all([
-    GI.load("videos"), GI.load("dashboards"), GI.load("shorts"),
+  const [videos, dashboards] = await Promise.all([
+    GI.load("videos"), GI.load("dashboards"),
   ]);
+
+  const counts = GI.tagCounts(videos);
+  GI.mount("#topics", GI.orderedTags(counts).map(tag => {
+    const t = GI.topicInfo(tag);
+    return GI.el(`
+      <a class="topic-card" href="videos.html#topic=${encodeURIComponent(tag)}">
+        <span class="ico">${t.icon}</span>
+        <span class="name">${GI.esc(t.label || tag)}</span>
+        <span class="n">${counts[tag]} video${counts[tag] === 1 ? "" : "s"}</span>
+      </a>`);
+  }));
 
   const featured = [...videos].sort((a, b) => b.views - a.views).slice(0, 3);
   GI.mount("#featured", featured.map(GI.videoCard));
@@ -135,54 +170,104 @@ async function initHome() {
   const topDash = [...dashboards].sort((a, b) => b.views - a.views).slice(0, 6);
   GI.mount("#top-dashboards", topDash.map(GI.dashCard));
 
-  GI.mount("#sunny-row", shorts.slice(0, 12).map(GI.shortCard));
-
   const stats = document.querySelector("#hero-stats");
   if (stats) stats.textContent =
-    `${videos.length} tutorials · ${dashboards.length} dashboards · ${shorts.length} Sunny shorts`;
+    `${videos.length} free tutorials · ${dashboards.length} interactive dashboards`;
 }
 
 async function initVideos() {
   const videos = await GI.load("videos");
-  const shorts = await GI.load("shorts");
-
-  const tagCounts = {};
-  videos.forEach(v => (v.tags || []).forEach(t => { tagCounts[t] = (tagCounts[t] || 0) + 1; }));
-  const tags = Object.keys(tagCounts).sort((a, b) => tagCounts[b] - tagCounts[a]);
+  const counts = GI.tagCounts(videos);
+  const tags = GI.orderedTags(counts);
 
   const chips = document.querySelector("#chips");
+  const search = document.querySelector("#search");
+  const sort = document.querySelector("#sort");
+  const grid = document.querySelector("#video-grid");
+  const note = document.querySelector("#result-count");
+
   let activeTag = "All";
-  const allTags = ["All", ...tags];
-  allTags.forEach(t => {
-    const c = GI.el(`<button class="chip${t === "All" ? " active" : ""}">${GI.esc(t)}${t === "All" ? "" : ` (${tagCounts[t]})`}</button>`);
-    c.addEventListener("click", () => {
-      activeTag = t;
-      chips.querySelectorAll(".chip").forEach(x => x.classList.remove("active"));
-      c.classList.add("active");
-      render();
-    });
+  const fromHash = decodeURIComponent((location.hash.match(/topic=([^&]+)/) || [, ""])[1]);
+  if (tags.includes(fromHash)) activeTag = fromHash;
+
+  const chipEls = {};
+  ["All", ...tags].forEach(t => {
+    const c = GI.el(`<button class="chip">${GI.esc(t)}${t === "All" ? "" : ` (${counts[t]})`}</button>`);
+    c.addEventListener("click", () => selectTag(t));
+    chipEls[t] = c;
     chips.appendChild(c);
   });
 
-  const search = document.querySelector("#search");
-  const sort = document.querySelector("#sort");
+  function selectTag(t) {
+    activeTag = t;
+    history.replaceState(null, "", t === "All"
+      ? location.pathname : `#topic=${encodeURIComponent(t)}`);
+    render();
+  }
+
+  window.addEventListener("hashchange", () => {
+    const t = decodeURIComponent((location.hash.match(/topic=([^&]+)/) || [, "All"])[1]);
+    if (t === activeTag) return;
+    activeTag = tags.includes(t) ? t : "All";
+    render();
+  });
+
   search.addEventListener("input", render);
   sort.addEventListener("change", render);
 
+  /* One horizontally scrollable shelf per topic (browse mode). */
+  function shelf(tag) {
+    const t = GI.topicInfo(tag);
+    const vids = videos.filter(v => (v.tags || []).includes(tag))
+      .sort((a, b) => b.views - a.views);
+    const sec = GI.el(`
+      <section class="shelf">
+        <div class="section-head">
+          <h2>${t.icon} ${GI.esc(t.label || tag)}</h2>
+          <span class="count-pill">${vids.length}</span>
+          <a class="more" href="#topic=${encodeURIComponent(tag)}">See all →</a>
+          <div class="shelf-nav">
+            <button type="button" aria-label="Scroll ${GI.esc(tag)} left">&#8249;</button>
+            <button type="button" aria-label="Scroll ${GI.esc(tag)} right">&#8250;</button>
+          </div>
+        </div>
+        <div class="shelf-row"></div>
+      </section>`);
+    const row = sec.querySelector(".shelf-row");
+    vids.forEach(v => row.appendChild(GI.videoCard(v)));
+    sec.querySelector(".more").addEventListener("click", e => {
+      e.preventDefault();
+      selectTag(tag);
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    });
+    const [prev, next] = sec.querySelectorAll(".shelf-nav button");
+    const page = dir => row.scrollBy({ left: dir * (row.clientWidth - 120), behavior: "smooth" });
+    prev.addEventListener("click", () => page(-1));
+    next.addEventListener("click", () => page(1));
+    return sec;
+  }
+
   function render() {
+    Object.entries(chipEls).forEach(([t, c]) => c.classList.toggle("active", t === activeTag));
     const q = search.value.trim().toLowerCase();
+
+    if (activeTag === "All" && !q) {
+      grid.className = "shelves";
+      GI.mount("#video-grid", tags.map(shelf));
+      note.textContent = `${videos.length} tutorials across ${tags.length} topics — scroll a row, or search to see everything at once`;
+      return;
+    }
+
+    grid.className = "grid";
     let list = videos.filter(v =>
       (activeTag === "All" || (v.tags || []).includes(activeTag)) &&
       (!q || v.title.toLowerCase().includes(q)));
     if (sort.value === "views") list = [...list].sort((a, b) => b.views - a.views);
     if (sort.value === "oldest") list = [...list].reverse();
     GI.mount("#video-grid", list.map(GI.videoCard));
-    document.querySelector("#result-count").textContent =
-      `${list.length} video${list.length === 1 ? "" : "s"}`;
+    note.textContent = `${list.length} video${list.length === 1 ? "" : "s"}`;
   }
   render();
-
-  GI.mount("#sunny-row", shorts.map(GI.shortCard));
 }
 
 async function initDashboards() {

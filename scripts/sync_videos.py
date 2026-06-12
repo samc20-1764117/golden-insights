@@ -33,6 +33,28 @@ def auto_tags(title: str) -> list:
     return tags or ["Tutorials"]
 
 
+class _NoRedirect(urllib.request.HTTPRedirectHandler):
+    def redirect_request(self, *args, **kwargs):
+        return None
+
+
+def is_short(video_id: str) -> bool:
+    """The site is videos-only. Shorts return 200 at the /shorts/ URL;
+    regular videos respond with a redirect (303) to /watch."""
+    url = f"https://www.youtube.com/shorts/{video_id}"
+    try:
+        opener = urllib.request.build_opener(_NoRedirect)
+        code = opener.open(urllib.request.Request(url, method="HEAD"), timeout=30).status
+    except urllib.error.HTTPError as e:
+        code = e.code
+    except Exception:
+        import subprocess
+        out = subprocess.run(["curl", "-s", "-o", "/dev/null", "-w", "%{http_code}", url],
+                             capture_output=True, text=True, timeout=60).stdout
+        code = int(out or 0)
+    return code == 200
+
+
 def fetch_feed() -> list:
     try:
         with urllib.request.urlopen(FEED_URL, timeout=30) as r:
@@ -58,6 +80,9 @@ def main():
     added = []
     for e in fetch_feed():
         if e["id"] in known:
+            continue
+        if is_short(e["id"]):
+            print(f"Skipping Short: {e['id']}  {e['title']}")
             continue
         added.append({
             "id": e["id"],
