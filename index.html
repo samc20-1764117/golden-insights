@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Golden Insights — Tableau Tutorials, Dashboards & Design Assets</title>
+  <meta name="description" content="Free Tableau tutorials, interactive dashboard examples, and UI/UX design assets from the Golden Insights YouTube channel.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='46' fill='%23C99A2E'/><text x='50' y='66' font-size='48' text-anchor='middle' fill='white' font-family='Georgia'>G</text></svg>">
+  <script type="module" src="https://public.tableau.com/javascripts/api/tableau.embedding.3.latest.min.js"></script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap">
+      <a class="brand" href="index.html"><span class="dot">G</span>Golden Insights</a>
+      <nav class="main-nav">
+        <a href="index.html" class="active">Home</a>
+        <a href="videos.html">Videos</a>
+        <a href="dashboards.html">Dashboards</a>
+        <a href="assets.html">Assets</a>
+        <a href="about.html">About</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero wrap">
+    <span class="eyebrow">Tableau · Data Viz · UI/UX</span>
+    <h1>Build dashboards people<br>actually love to use</h1>
+    <p class="lede">Free Tableau tutorials, fully interactive dashboard examples, and the design
+       assets behind them — from the Golden Insights YouTube channel (with occasional appearances
+       by Sunny the golden retriever 🐕).</p>
+    <div class="cta-row">
+      <a class="btn btn-gold" href="videos.html">Browse all tutorials</a>
+      <a class="btn btn-ghost" href="https://www.youtube.com/@golden_insights?sub_confirmation=1" target="_blank" rel="noopener">Subscribe on YouTube</a>
+    </div>
+    <p class="count-note" id="hero-stats" style="margin-top:22px"></p>
+  </section>
+
+  <section class="block wrap">
+    <div class="section-head"><h2>Most popular tutorials</h2><a class="more" href="videos.html">All videos →</a></div>
+    <div class="grid" id="featured"></div>
+  </section>
+
+  <section class="block wrap">
+    <div class="section-head"><h2>Latest uploads</h2><a class="more" href="videos.html">All videos →</a></div>
+    <div class="grid" id="latest"></div>
+  </section>
+
+  <section class="block wrap">
+    <div class="section-head"><h2>Interactive dashboards</h2><a class="more" href="dashboards.html">All dashboards →</a></div>
+    <p class="count-note">Live from Tableau Public — click any to interact with it without leaving the page.</p>
+    <div class="grid" id="top-dashboards"></div>
+  </section>
+
+  <section class="block wrap">
+    <div class="sunny">
+      <div class="section-head"><h2>Sunny's corner ☀️</h2><a class="more" href="videos.html#sunny">More Sunny →</a></div>
+      <div class="sunny-row" id="sunny-row"></div>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <span>© Golden Insights · Made with ☕ and 🐕</span>
+      <div class="links">
+        <a href="https://www.youtube.com/@golden_insights" target="_blank" rel="noopener">YouTube</a>
+        <a href="https://public.tableau.com/app/profile/samantha.cohn" target="_blank" rel="noopener">Tableau Public</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/site.js"></script>
+  <script>initHome();</script>
+</body>
+</html>

@@ -1,0 +1,16 @@
+[
+ {
+  "title": "Golden Insights Color Palettes (.tps)",
+  "description": "Three ready-to-use Tableau palettes — categorical, sequential, and diverging — in the warm golden style used across the channel. Drop into your Tableau Repository's Preferences.tps (or merge with your existing one) and restart Tableau.",
+  "file": "downloads/golden-insights-palettes.tps",
+  "preview": "assets/previews/palette-preview.png",
+  "format": ".tps"
+ },
+ {
+  "title": "UI Shapes Starter Pack",
+  "description": "20 transparent PNG shapes (256×256) for Tableau: arrows, chevrons, rings, stars, checkmarks and more, in gold and espresso. Includes install instructions for your Tableau Shapes folder.",
+  "file": "downloads/gi-ui-shapes-starter.zip",
+  "preview": "assets/previews/shapes-preview.png",
+  "format": ".zip"
+ }
+]

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interactive Dashboards — Golden Insights</title>
+  <meta name="description" content="Explore Golden Insights' Tableau dashboards — fully interactive, embedded live from Tableau Public.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='46' fill='%23C99A2E'/><text x='50' y='66' font-size='48' text-anchor='middle' fill='white' font-family='Georgia'>G</text></svg>">
+  <script type="module" src="https://public.tableau.com/javascripts/api/tableau.embedding.3.latest.min.js"></script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap">
+      <a class="brand" href="index.html"><span class="dot">G</span>Golden Insights</a>
+      <nav class="main-nav">
+        <a href="index.html">Home</a>
+        <a href="videos.html">Videos</a>
+        <a href="dashboards.html" class="active">Dashboards</a>
+        <a href="assets.html">Assets</a>
+        <a href="about.html">About</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="block wrap">
+    <h1>Interactive dashboards</h1>
+    <p class="count-note" style="margin-top:0">Every dashboard is live from Tableau Public — click one to filter, hover, and explore it here.</p>
+    <div class="toolbar">
+      <input type="search" id="search" placeholder="Search dashboards… e.g. finance, sankey, liquid glass">
+    </div>
+    <p class="count-note" id="result-count"></p>
+    <div class="grid" id="dash-grid"></div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <span>© Golden Insights · Made with ☕ and 🐕</span>
+      <div class="links">
+        <a href="https://www.youtube.com/@golden_insights" target="_blank" rel="noopener">YouTube</a>
+        <a href="https://public.tableau.com/app/profile/samantha.cohn" target="_blank" rel="noopener">Tableau Public</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/site.js"></script>
+  <script>initDashboards();</script>
+</body>
+</html>

@@ -1,0 +1,2300 @@
+[
+ {
+  "id": "hkLPgzKHo-4",
+  "title": "Tableau Drill Down: Expand Multiple Rows, Expand & Collapse All",
+  "length": "17:35",
+  "views": 531,
+  "date": "2026-06-02",
+  "dateApprox": false,
+  "tags": [
+   "Filters & Interactivity",
+   "Quick Tips & Fixes"
+  ]
+ },
+ {
+  "id": "Eh9e2MkkGDQ",
+  "title": "Tableau Remove Black Outline on Shapes (Selection Border Fix)",
+  "length": "2:21",
+  "views": 181,
+  "date": "2026-05-12",
+  "dateApprox": false,
+  "tags": [
+   "Design & UX",
+   "Quick Tips & Fixes"
+  ]
+ },
+ {
+  "id": "7MbS0Oos8Y4",
+  "title": "Tableau Double Click Fix (Buttons & Actions Work on First Click)",
+  "length": "1:17",
+  "views": 296,
+  "date": "2026-04-21",
+  "dateApprox": false,
+  "tags": [
+   "Filters & Interactivity",
+   "Quick Tips & Fixes"
+  ]
+ },
+ {
+  "id": "FVxq0NOIoog",
+  "title": "Tableau Rounded Corners (New Native Feature for Containers & Dashboards)",
+  "length": "4:48",
+  "views": 837,
+  "date": "2026-04-14",
+  "dateApprox": false,
+  "tags": [
+   "Design & UX"
+  ]
+ },
+ {
+  "id": "do6JN0sME9c",
+  "title": "Tableau Yellow Highlight Won\u2019t Go Away? Here\u2019s the Fix",
+  "length": "1:00",
+  "views": 187,
+  "date": "2026-04-07",
+  "dateApprox": false,
+  "tags": [
+   "Filters & Interactivity",
+   "Quick Tips & Fixes"
+  ]
+ },
+ {
+  "id": "I4aGl4O-O2I",
+  "title": "Using Lines for Rounded Bars in Tableau? Here\u2019s How to Make Them Thicker",
+  "length": "0:27",
+  "views": 156,
+  "date": "2026-03-31",
+  "dateApprox": false,
+  "tags": [
+   "Design & UX"
+  ]
+ },
+ {
+  "id": "xnKb0UOtMZY",
+  "title": "Cannot Mix Aggregate and Non-Aggregate Arguments (How to Fix Tableau Error)",
+  "length": "2:55",
+  "views": 441,
+  "date": "2026-03-24",
+  "dateApprox": false,
+  "tags": [
+   "Calculations & LOD",
+   "Quick Tips & Fixes"
+  ]
+ },
+ {
+  "id": "KZ3pEocMZH0",
+  "title": "Let Users Change Dashboard Backgrounds in Tableau",
+  "length": "3:56",
+  "views": 512,
+  "date": "2026-03-17",
+  "dateApprox": false,
+  "tags": [
+   "Design & UX"
+  ]
+ },
+ {
+  "id": "W5zhU1OTZ9U",
+  "title": "Add Today\u2019s Date and Time to Your Tableau Dashboard",
+  "length": "0:53",
+  "views": 336,
+  "date": "2026-03-10",
+  "dateApprox": false,
+  "tags": [
+   "Tutorials"
+  ]
+ },
+ {
+  "id": "lVsb4j0wPP8",
+  "title": "Turn Your Tableau Dashboard Into a Notification Center with Conditional Alerts",
+  "length": "8:02",
+  "views": 639,
+  "date": "2026-03-03",
+  "dateApprox": false,
+  "tags": [
+   "Full Dashboard Builds"
+  ]
+ },
+ {
+  "id": "vQoCcppeHQ4",
+  "title": "Use a \u201cMore\u201d Button to Reveal Hidden Actions in Tableau",
+  "length": "1:10",
+  "views": 298,
+  "date": "2026-02-24",
+  "dateApprox": false,
+  "tags": [
+   "Filters & Interactivity"
+  ]
+ },
+ {
+  "id": "QisZP-y7PD0",
+  "title": "Use Images to Filter in Tableau with Your Own Custom Rules",
+  "length": "8:01",
+  "views": 591,
+  "date": "2026-02-17",
+  "dateApprox": false,
+  "tags": [
+   "Filters & Interactivity"
+  ]
+ },
+ {
+  "id": "QsI2luuGWSw",
+  "title": "Add a Dynamic Map Switcher to Your Tableau Dashboard",
+  "length": "11:45",
+  "views": 492,
+  "date": "2026-02-10",
+  "dateApprox": false,
+  "tags": [
+   "Maps",
+   "Filters & Interactivity"
+  ]
+ },
+ {
+  "id": "CnJGEYKRH1A",
+  "title": "Add Icons Outside a Donut Chart in Tableau",
+  "length": "3:08",
+  "views": 328,
+  "date": "2026-02-03",
+  "dateApprox": false,
+  "tags": [
+   "Charts",
+   "Design & UX"
+  ]
+ },
+ {
+  "id": "hp1vGjBxDt8",
+  "title": "Carousel in Tableau for Flipping Through Metrics",
+  "length": "8:01",
+  "views": 939,
+  "date": "2026-01-27",
+  "dateApprox": false,
+  "tags": [
+   "Filters & Interactivity"
+  ]
+ },
+ {
+  "id": "mKUHmKIM3FA",
+  "title": "How to Create Drop Down Filters in Tableau for Cleaner Dashboards",
+  "length": "4:33",
+  "views": 1300,
+  "date": "2026-02-12",
+  "dateApprox": true,
+  "tags": [
+   "Filters & Interactivity"
+  ]
+ },
+ {
+  "id": "qSJEK1pJbaI",
+  "title": "Build Flexible Rounded Donut in Tableau (Control Start and Arc Length)",
+  "length": "10:41",
+  "views": 532,
+  "date": "2026-02-12",
+  "dateApprox": true,
+  "tags": [
+   "Charts",
+   "Design & UX"
+  ]
+ },
+ {
+  "id": "dMuV2MN_nOE",
+  "title": "Tableau Liquid Glass Dashboard | Glassmorphism UI",
+  "length": "41:18",
+  "views": 3800,
+  "date": "2026-01-13",
+  "dateApprox": true,
+  "tags": [
+   "Full Dashboard Builds",
+   "Design & UX"
+  ]
+ },
+ {
+  "id": "8BEjf_NOSl0",
+  "title": "Drop Pins on a Map in Tableau \ud83d\udccd (Top X Locations by Metric)",
+  "length": "1:41",
+  "views": 247,
+  "date": "2026-01-13",
+  "dateApprox": true,
+  "tags": [
+   "Maps"
+  ]
+ },
+ {
+  "id": "LMZQ51mmiII",
+  "title": "Bar Chart with Icons in Tableau (Make Categories Instantly Recognizable)",
+  "length": "1:08",
+  "views": 242,
+  "date": "2026-01-13",
+  "dateApprox": true,
+  "tags": [
+   "Charts",
+   "Design & UX"
+  ]
+ },
+ {
+  "id": "DCh6TrPDsI0",
+  "title": "Area Chart with Custom Borders in Tableau",
+  "length": "1:42",
+  "views": 238,
+  "date": "2026-01-13",
+  "dateApprox": true,
+  "tags": [
+   "Charts"
+  ]
+ },
+ {
+  "id": "5UOFmswx3tM",
+  "title": "Rounded Gradient Bar Chart in Tableau (Easy and Modern)",
+  "length": "1:07",
+  "views": 701,
+  "date": "2026-01-13",
+  "dateApprox": true,
+  "tags": [
+   "Charts",
+   "Design & UX",
+   "Quick Tips & Fixes"
+  ]
+ },
+ {
+  "id": "bi5wxaLLstQ",
+  "title": "How to Create KPI Cards in Tableau (Responsive Arrows & Color)",
+  "length": "3:00",
+  "views": 13000,
+  "date": "2025-12-14",
+  "dateApprox": true,
+  "tags": [
+   "KPI & Cards"
+  ]
+ },
+ {
+  "id": "Opja46x20rw",
+  "title": "Learn Tableau Fast: 8 Easy Visuals",
+  "length": "12:00",
+  "views": 1700,
+  "date": "2025-12-14",
+  "dateApprox": true,
+  "tags": [
+   "Quick Tips & Fixes"
+  ]
+ },
+ {
+  "id": "ypaH1837HfY",
+  "title": "How to Turn Headers into Filters in Tableau",
+  "length": "1:52",
+  "views": 457,
+  "date": "2025-12-14",
+  "dateApprox": true,
+  "tags": [
+   "Filters & Interactivity"
+  ]
+ },
+ {
+  "id": "totie_Cl370",
+  "title": "How to Repeat Row Labels in Tableau | Show Repeated Values, Fill Down Like Excel",
+  "length": "1:25",
+  "views": 1000,
+  "date": "2025-12-14",
+  "dateApprox": true,
+  "tags": [
+   "Tutorials"
+  ]
+ },
+ {
+  "id": "xQ5ljNd221A",
+  "title": "Click Through Days Like a Calendar Using Arrows in Tableau",
+  "length": "6:41",
+  "views": 253,
+  "date": "2025-11-14",
+  "dateApprox": true,
+  "tags": [
+   "Charts",
+   "Filters & Interactivity"
+  ]
+ },
+ {
+  "id": "oyavxDB1FgM",
+  "title": "Gradient Area + Line Chart in Tableau | Inspired by iPhone Weather App",
+  "length": "8:08",
+  "views": 554,
+  "date": "2025-11-14",
+  "dateApprox": true,
+  "tags": [
+   "Charts",
+   "Design & UX"
+  ]
+ },
+ {
+  "id": "BUfik2lVVmg",
+  "title": "Build a Modern Radial Chart in Tableau with Custom End Labels",
+  "length": "8:04",
+  "views": 573,
+  "date": "2025-11-14",
+  "dateApprox": true,
+  "tags": [
+   "Charts",
+   "Design & UX"
+  ]
+ },
+ {
+  "id": "5XEySUS1yN8",
+  "title": "How to Add a Vertical Reference Line to a Histogram in Tableau",
+  "length": "3:14",
+  "views": 1300,
+  "date": "2025-11-14",
+  "dateApprox": true,
+  "tags": [
+   "Charts"
+  ]
+ },
+ {
+  "id": "MuWZHUtjbrw",
+  "title": "How to Create a Rounded Half Donut Progress Chart in Tableau",
+  "length": "5:00",
+  "views": 2600,
+  "date": "2025-11-14",
+  "dateApprox": true,
+  "tags": [
+   "Charts",
+   "Design & UX"
+  ]
+ },
+ {
+  "id": "N7FhrhQcgas",
+  "title": "How to Fill Images for KPIs in Tableau to Show Progress and Distribution",
+  "length": "8:03",
+  "views": 645,
+  "date": "2025-10-15",
+  "dateApprox": true,
+  "tags": [
+   "KPI & Cards"
+  ]
+ },
+ {
+  "id": "Eb3JVVUrgU0",
+  "title": "Tableau Orders Dashboard That Looks Like a Modern App",
+  "length": "42:00",
+  "views": 2200,
+  "date": "2025-10-15",
+  "dateApprox": true,
+  "tags": [
+   "Full Dashboard Builds",
+   "Design & UX"
+  ]
+ },
+ {
+  "id": "ZqfmUBug33o",
+  "title": "Click to Expand Details in Tableau | Dynamic Zone Visibility with \u2795 Icons",
+  "length": "5:52",
+  "views": 1100,
+  "date": "2025-10-15",
+  "dateApprox": true,
+  "tags": [
+   "Filters & Interactivity",
+   "Design & UX"
+  ]
+ },
+ {
+  "id": "j4OjQHRHGeQ",
+  "title": "Rounded Contribution Bar in Tableau | A Clear and Space-Saving Pie Chart Alternative",
+  "length": "2:59",
+  "views": 444,
+  "date": "2025-10-15",
+  "dateApprox": true,
+  "tags": [
+   "Charts",
+   "Design & UX"
+  ]
+ },
+ {
+  "id": "SX-7A9c5XxY",
+  "title": "Side-by-Side Bar Charts in Tableau (No Pivot Required)",
+  "length": "3:23",
+  "views": 2800,
+  "date": "2025-09-15",
+  "dateApprox": true,
+  "tags": [
+   "Charts"
+  ]
+ },
+ {
+  "id": "2J8AtV08WUI",
+  "title": "How to Make a Bar-in-Bar Chart in Tableau (Nested Bar Chart Tutorial)",
+  "length": "1:43",
+  "views": 249,
+  "date": "2025-09-15",
+  "dateApprox": true,
+  "tags": [
+   "Charts"
+  ]
+ },
+ {
+  "id": "Vzzfl2vagRo",
+  "title": "Create a Circular Progress Chart with Dots in Tableau (Step-by-Step Tutorial)",
+  "length": "5:42",
+  "views": 799,
+  "date": "2025-09-15",
+  "dateApprox": true,
+  "tags": [
+   "Charts"
+  ]
+ },
+ {
+  "id": "RSa3Ddxt_SE",
+  "title": "How to Frame KPI Cards in Tableau for a Clean Rounded Corner Design",
+  "length": "5:08",
+  "views": 4000,
+  "date": "2025-09-15",
+  "dateApprox": true,
+  "tags": [
+   "KPI & Cards",
+   "Design & UX"
+  ]
+ },
+ {
+  "id": "CS9EHqLyv9A",
+  "title": "Finance Dashboard in Tableau | Google Segment Comparison Scorecard Tutorial",
+  "length": "31:04",
+  "views": 1300,
+  "date": "2025-08-16",
+  "dateApprox": true,
+  "tags": [
+   "Full Dashboard Builds",
+   "KPI & Cards"
+  ]
+ },
+ {
+  "id": "UTp9cWagc6g",
+  "title": "How to Control Bar Chart Roundness in Tableau - No More All-or-Nothing Edges",
+  "length": "2:38",
+  "views": 382,
+  "date": "2025-08-16",
+  "dateApprox": true,
+  "tags": [
+   "Charts"
+  ]
+ },
+ {
+  "id": "rw9bisZhqd8",
+  "title": "Control Pie & Donut Chart Labels in Tableau - Position & Color",
+  "length": "3:05",
+  "views": 1700,
+  "date": "2025-08-16",
+  "dateApprox": true,
+  "tags": [
+   "Charts"
+  ]
+ },
+ {
+  "id": "nv8aba04QF8",
+  "title": "Add Borders to Pie & Donut Charts in Tableau - With Custom Colors for Each Slice",
+  "length": "3:11",
+  "views": 556,
+  "date": "2025-08-16",
+  "dateApprox": true,
+  "tags": [
+   "Charts"
+  ]
+ },
+ {
+  "id": "svH9tKBI0i0",
+  "title": "Create a Glowing Neon Line Chart in Tableau That Really Stands Out",
+  "length": "2:25",
+  "views": 349,
+  "date": "2025-08-16",
+  "dateApprox": true,
+  "tags": [
+   "Charts",
+   "Design & UX"
+  ]
+ },
+ {
+  "id": "zke3HO-KarQ",
+  "title": "Create a Gradient Progress Bar with a Synced Outline - 100% Built in Tableau",
+  "length": "8:02",
+  "views": 637,
+  "date": "2025-07-17",
+  "dateApprox": true,
+  "tags": [
+   "Design & UX"
+  ]
+ },
+ {
+  "id": "Nr69wk52y4Q",
+  "title": "I Let AI Design My Tableau Dashboard\u2026 and Then I Built It",
+  "length": "12:30",
+  "views": 1700,
+  "date": "2025-07-17",
+  "dateApprox": true,
+  "tags": [
+   "Full Dashboard Builds",
+   "Design & UX"
+  ]
+ },
+ {
+  "id": "NRL0jSRFt7Q",
+  "title": "Tableau Color Palettes Explained \ud83c\udfa8  Load Your Own Categorical, Sequential & Diverging Colors",
+  "length": "4:09",
+  "views": 1100,
+  "date": "2025-07-17",
+  "dateApprox": true,
+  "tags": [
+   "Design & UX"
+  ]
+ },
+ {
+  "id": "iRBkN-cpCcw",
+  "title": "How to Add Info Tooltips in Tableau - Custom Icons + Dynamic Text (Under 1 Minute)",
+  "length": "1:28",
+  "views": 1800,
+  "date": "2025-07-17",
+  "dateApprox": true,
+  "tags": [
+   "Design & UX",
+   "Quick Tips & Fixes"
+  ]
+ },
+ {
+  "id": "nzW1CAc3e4A",
+  "title": "How to Add Show/Hide Filters in Tableau with a Button (No Clutter!)",
+  "length": "1:18",
+  "views": 4100,
+  "date": "2025-06-12",
+  "dateApprox": true,
+  "tags": [
+   "Filters & Interactivity"
+  ]
+ },
+ {
+  "id": "woPLVHpZg7c",
+  "title": "How to Build a Waterfall Chart in Tableau (Step-by-Step Income Statement Example)",
+  "length": "4:31",
+  "views": 2300,
+  "date": "2025-06-12",
+  "dateApprox": true,
+  "tags": [
+   "Charts"
+  ]
+ },
+ {
+  "id": "MXWcNzMypo4",
+  "title": "How to Sync Axes Across Worksheets in Tableau (Go Beyond Dual Axis Limits)",
+  "length": "4:18",
+  "views": 1000,
+  "date": "2025-06-12",
+  "dateApprox": true,
+  "tags": [
+   "Tutorials"
+  ]
+ },
+ {
+  "id": "z45tr1AggCk",
+  "title": "How to Compare This Year vs Last Year in Tableau (Even If This Year Isn\u2019t Complete)",
+  "length": "1:49",
+  "views": 2000,
+  "date": "2025-06-12",
+  "dateApprox": true,
+  "tags": [
+   "Tutorials"
+  ]
+ },
+ {
+  "id": "wNtGPT54iiE",
+  "title": "Build KPI Cards That React Instantly - Arrows & Colors Update Automatically",
+  "length": "5:18",
+  "views": 2100,
+  "date": "2025-06-12",
+  "dateApprox": true,
+  "tags": [
+   "KPI & Cards"
+  ]
+ },
+ {
+  "id": "W9MylRvylUk",
+  "title": "Tableau for Finance - Build Dashboards That Actually Drive Decisions",
+  "length": "31:53",
+  "views": 4200,
+  "date": "2025-06-12",
+  "dateApprox": true,
+  "tags": [
+   "Tutorials"
+  ]
+ },
+ {
+  "id": "nth9_UvChl8",
+  "title": "Tiled vs Floating in Tableau - How to Choose the Right One Every Time",
+  "length": "3:45",
+  "views": 1300,
+  "date": "2025-06-12",
+  "dateApprox": true,
+  "tags": [
+   "Tutorials"
+  ]
+ },
+ {
+  "id": "QiHALT23ajQ",
+  "title": "How to Add a Light/Dark Mode Toggle in Tableau (For Better UX + Accessibility)",
+  "length": "13:37",
+  "views": 2200,
+  "date": "2025-06-12",
+  "dateApprox": true,
+  "tags": [
+   "Filters & Interactivity",
+   "Design & UX"
+  ]
+ },
+ {
+  "id": "cnmQK3ZkbZU",
+  "title": "How to Build a Histogram in Tableau in Just a Minute",
+  "length": "1:40",
+  "views": 217,
+  "date": "2025-06-12",
+  "dateApprox": true,
+  "tags": [
+   "Charts",
+   "Quick Tips & Fixes"
+  ]
+ },
+ {
+  "id": "hD7s_iUoZv0",
+  "title": "How to Build and Format a Treemap in Tableau in Just a Minute",
+  "length": "1:38",
+  "views": 555,
+  "date": "2025-06-12",
+  "dateApprox": true,
+  "tags": [
+   "Charts",
+   "Design & UX",
+   "Quick Tips & Fixes"
+  ]
+ },
+ {
+  "id": "0rgsx7AbPJc",
+  "title": "How to Build a Dot Plot in Tableau in Just a Minute",
+  "length": "1:03",
+  "views": 397,
+  "date": "2025-06-12",
+  "dateApprox": true,
+  "tags": [
+   "Charts",
+   "Quick Tips & Fixes"
+  ]
+ },
+ {
+  "id": "vDDOEZtulTM",
+  "title": "How to Build an Interactive Calendar in Tableau",
+  "length": "9:45",
+  "views": 3800,
+  "date": "2025-06-12",
+  "dateApprox": true,
+  "tags": [
+   "Charts",
+   "Filters & Interactivity"
+  ]
+ },
+ {
+  "id": "0-g1zRspLaQ",
+  "title": "Psychology of Data Visualization: The Surprising Reasons Some Dashboards Fail",
+  "length": "8:42",
+  "views": 1500,
+  "date": "2025-06-12",
+  "dateApprox": true,
+  "tags": [
+   "Design & UX"
+  ]
+ },
+ {
+  "id": "S3YLUMzQtwg",
+  "title": "New Idea: Make Radial Charts in Tableau More Intuitive by Adding Icons",
+  "length": "2:21",
+  "views": 231,
+  "date": "2025-06-12",
+  "dateApprox": true,
+  "tags": [
+   "Charts",
+   "Design & UX"
+  ]
+ },
+ {
+  "id": "NjMl4OHxAHE",
+  "title": "How to Make a 3D Donut Chart in Tableau | One Tiny Tweak = Big Design Upgrade",
+  "length": "4:34",
+  "views": 1100,
+  "date": "2025-06-12",
+  "dateApprox": true,
+  "tags": [
+   "Charts",
+   "Design & UX"
+  ]
+ },
+ {
+  "id": "JFvKP3PfH1Q",
+  "title": "Tableau Fitness Dashboard Tutorial | Track Your Workouts in Style (Light + Dark Mode!)",
+  "length": "40:40",
+  "views": 1600,
+  "date": "2025-06-12",
+  "dateApprox": true,
+  "tags": [
+   "Full Dashboard Builds",
+   "Design & UX"
+  ]
+ },
+ {
+  "id": "aiJzfmkfTcc",
+  "title": "Stop Guessing! This Flowchart Tells You EXACTLY What Chart to Use",
+  "length": "10:28",
+  "views": 1300,
+  "date": "2025-06-12",
+  "dateApprox": true,
+  "tags": [
+   "Charts"
+  ]
+ },
+ {
+  "id": "GNVJjLuGfNo",
+  "title": "Tableau Tutorial for Beginners \u2013 Build a Dashboard in 20 Minutes (Step-by-Step & Simple!)",
+  "length": "20:00",
+  "views": 7300,
+  "date": "2025-06-12",
+  "dateApprox": true,
+  "tags": [
+   "Full Dashboard Builds",
+   "Quick Tips & Fixes"
+  ]
+ },
+ {
+  "id": "vSYRzzqWAiM",
+  "title": "Tableau: How to Create Custom Summary Cards (Dynamic KPI & Category Cards)",
+  "length": "3:28",
+  "views": 2600,
+  "date": "2025-06-12",
+  "dateApprox": true,
+  "tags": [
+   "KPI & Cards"
+  ]
+ },
+ {
+  "id": "muoRVDwNdSs",
+  "title": "Tableau Bin Formatting Fix: Customize Bin Labels for Clearer Data",
+  "length": "2:03",
+  "views": 430,
+  "date": "2025-06-12",
+  "dateApprox": true,
+  "tags": [
+   "Design & UX",
+   "Calculations & LOD",
+   "Quick Tips & Fixes"
+  ]
+ },
+ {
+  "id": "sgM6pOQCxws",
+  "title": "How to Create a Heatmap Table with Conditional Formatting in Tableau",
+  "length": "5:43",
+  "views": 1800,
+  "date": "2025-06-12",
+  "dateApprox": true,
+  "tags": [
+   "Charts",
+   "Design & UX"
+  ]
+ },
+ {
+  "id": "f4teeqBkwLs",
+  "title": "Tableau Hexagon Map Tutorial: How to Create Padded & Non-Padded Hex Maps",
+  "length": "3:45",
+  "views": 914,
+  "date": "2025-06-12",
+  "dateApprox": true,
+  "tags": [
+   "Charts",
+   "Maps"
+  ]
+ },
+ {
+  "id": "vEA69T0Zlb4",
+  "title": "7 Tableau Tips That Will Save You HOURS! \u23f3\u26a1",
+  "length": "11:46",
+  "views": 2200,
+  "date": "2025-06-12",
+  "dateApprox": true,
+  "tags": [
+   "Quick Tips & Fixes"
+  ]
+ },
+ {
+  "id": "RwbkjdYH8uw",
+  "title": "Tableau Pie Chart in Any Shape! (Hexagon, Square, Custom Shapes & More)",
+  "length": "1:36",
+  "views": 475,
+  "date": "2025-06-12",
+  "dateApprox": true,
+  "tags": [
+   "Charts",
+   "Design & UX"
+  ]
+ },
+ {
+  "id": "D3-0-OoGNVc",
+  "title": "Tableau Level of Detail (LOD) Calculations: FIXED, INCLUDE, and EXCLUDE Made Easy",
+  "length": "12:00",
+  "views": 3600,
+  "date": "2025-06-12",
+  "dateApprox": true,
+  "tags": [
+   "Calculations & LOD",
+   "Quick Tips & Fixes"
+  ]
+ },
+ {
+  "id": "jM2drPWQhME",
+  "title": "How to Create a Dotted Line and Matching Legend in Tableau (Solid vs. Dashed for Actual vs. Target)",
+  "length": "3:45",
+  "views": 1500,
+  "date": "2025-06-12",
+  "dateApprox": true,
+  "tags": [
+   "Tutorials"
+  ]
+ },
+ {
+  "id": "S7GfrtUG49Q",
+  "title": "Tableau Calculations Simplified: Learn the Essentials in 10 Minutes",
+  "length": "10:00",
+  "views": 1000,
+  "date": "2025-06-12",
+  "dateApprox": true,
+  "tags": [
+   "Calculations & LOD",
+   "Quick Tips & Fixes"
+  ]
+ },
+ {
+  "id": "NVT_WTO576E",
+  "title": "Tableau HR Dashboard: Build a Modern & Insightful Design (Step-by-Step)",
+  "length": "49:18",
+  "views": 5800,
+  "date": "2025-06-12",
+  "dateApprox": true,
+  "tags": [
+   "Full Dashboard Builds",
+   "Design & UX"
+  ]
+ },
+ {
+  "id": "JM4g7ms3LVM",
+  "title": "Custom Shape Waffle Chart with Dynamic Legends and Metrics in Tableau",
+  "length": "10:09",
+  "views": 253,
+  "date": "2025-06-12",
+  "dateApprox": true,
+  "tags": [
+   "Charts",
+   "Design & UX"
+  ]
+ },
+ {
+  "id": "vDYO54ORJ9o",
+  "title": "How to Create Custom Shape Waffle Charts in Tableau",
+  "length": "5:30",
+  "views": 428,
+  "date": "2025-06-12",
+  "dateApprox": true,
+  "tags": [
+   "Charts",
+   "Design & UX"
+  ]
+ },
+ {
+  "id": "hZzkmiPShsE",
+  "title": "Add Custom Color-Coded Status Buttons in Tableau: Transform Tables with Instant Visual Insights \ud83d\udea6",
+  "length": "3:36",
+  "views": 1000,
+  "date": "2025-06-12",
+  "dateApprox": true,
+  "tags": [
+   "Filters & Interactivity"
+  ]
+ },
+ {
+  "id": "qve6Wg7-rOg",
+  "title": "How to Create a Waffle Chart in Tableau in Under 5 Minutes: Simple and Fast Guide! \ud83e\uddc7",
+  "length": "5:00",
+  "views": 1600,
+  "date": "2025-06-12",
+  "dateApprox": true,
+  "tags": [
+   "Charts",
+   "Quick Tips & Fixes"
+  ]
+ },
+ {
+  "id": "3G0loprfK18",
+  "title": "Mini Time Buttons in Tableau: Responsive Filtering & Sorting with One Click!",
+  "length": "11:11",
+  "views": 762,
+  "date": "2025-06-12",
+  "dateApprox": true,
+  "tags": [
+   "Filters & Interactivity"
+  ]
+ },
+ {
+  "id": "jPawk_KCpBw",
+  "title": "Dynamic Titles in Tableau: Auto-Update Text with Filters for Any Field",
+  "length": "2:40",
+  "views": 1000,
+  "date": "2025-06-12",
+  "dateApprox": true,
+  "tags": [
+   "Filters & Interactivity"
+  ]
+ },
+ {
+  "id": "AQaHLXk48qs",
+  "title": "Custom Bubble Charts in Tableau: Add Gradients, Shadows, and Unique Shapes \ud83e\udee7",
+  "length": "6:52",
+  "views": 581,
+  "date": "2025-06-12",
+  "dateApprox": true,
+  "tags": [
+   "Charts",
+   "Design & UX"
+  ]
+ },
+ {
+  "id": "JyYXqLSpem8",
+  "title": "How to Overlap Bubbles in Tableau Packed Bubble Charts",
+  "length": "6:18",
+  "views": 462,
+  "date": "2025-06-12",
+  "dateApprox": true,
+  "tags": [
+   "Charts"
+  ]
+ },
+ {
+  "id": "ocTYOtCm4Po",
+  "title": "Create a Packed Bubble Chart in Tableau in Seconds \u26a1 Super Quick & Easy!",
+  "length": "1:45",
+  "views": 878,
+  "date": "2025-06-12",
+  "dateApprox": true,
+  "tags": [
+   "Charts",
+   "Quick Tips & Fixes"
+  ]
+ },
+ {
+  "id": "ukwNWpSLcoI",
+  "title": "Transform Traditional Tables: Visualize Metrics with Pie/Donut Charts and Gradient Rings in Tableau",
+  "length": "9:52",
+  "views": 707,
+  "date": "2025-06-12",
+  "dateApprox": true,
+  "tags": [
+   "Charts",
+   "Design & UX"
+  ]
+ },
+ {
+  "id": "FM-YppvO8uA",
+  "title": "Endless Gradient Rings: Pie/Donut Chart Design Trick in Tableau",
+  "length": "4:15",
+  "views": 936,
+  "date": "2025-06-12",
+  "dateApprox": true,
+  "tags": [
+   "Charts",
+   "Design & UX",
+   "Quick Tips & Fixes"
+  ]
+ },
+ {
+  "id": "hjSPf3BLQ1o",
+  "title": "Beyond Basic Charts: Tableau Tutorial for a Modern Orders Tab",
+  "length": "46:00",
+  "views": 2200,
+  "date": "2025-06-12",
+  "dateApprox": true,
+  "tags": [
+   "Full Dashboard Builds",
+   "Charts",
+   "Design & UX"
+  ]
+ },
+ {
+  "id": "mO1EoRP_BTU",
+  "title": "Tableau Tip: Create Easy Navigation Tabs for Multi-Dashboard Workbooks",
+  "length": "4:24",
+  "views": 6800,
+  "date": "2025-06-12",
+  "dateApprox": true,
+  "tags": [
+   "Filters & Interactivity",
+   "Quick Tips & Fixes"
+  ]
+ },
+ {
+  "id": "2XexN3Q0xnA",
+  "title": "Call Out Important Data in Tableau: Add Dynamic Measure Values to Annotations",
+  "length": "2:33",
+  "views": 556,
+  "date": "2025-06-12",
+  "dateApprox": true,
+  "tags": [
+   "Tutorials"
+  ]
+ },
+ {
+  "id": "IX7k8aTM1B4",
+  "title": "Drop a Pin \ud83d\udccd How to Add Custom Pins to Highlight Key Data in Tableau Maps",
+  "length": "3:00",
+  "views": 673,
+  "date": "2025-06-12",
+  "dateApprox": true,
+  "tags": [
+   "Maps",
+   "Filters & Interactivity"
+  ]
+ },
+ {
+  "id": "BL9arAykqr4",
+  "title": "Building Country Comparison Progress Bars with Flag Icons and Values in Tableau",
+  "length": "10:46",
+  "views": 1000,
+  "date": "2025-06-12",
+  "dateApprox": true,
+  "tags": [
+   "Design & UX"
+  ]
+ },
+ {
+  "id": "w2Dpr5VbUcY",
+  "title": "Filter & Sort Top X Categories by Metric in Tableau (In Just 1 Minute!)",
+  "length": "1:00",
+  "views": 274,
+  "date": "2025-06-12",
+  "dateApprox": true,
+  "tags": [
+   "Filters & Interactivity",
+   "Quick Tips & Fixes"
+  ]
+ },
+ {
+  "id": "z0pn1a-L-_c",
+  "title": "How to Create Rounded Progress Bars in Tableau",
+  "length": "4:17",
+  "views": 2200,
+  "date": "2025-06-12",
+  "dateApprox": true,
+  "tags": [
+   "Design & UX"
+  ]
+ },
+ {
+  "id": "g6i7m9hvU28",
+  "title": "Optimize Tableau Donut Charts: Add Legends Inside the Donut to Maximize Space",
+  "length": "5:05",
+  "views": 1200,
+  "date": "2025-06-12",
+  "dateApprox": true,
+  "tags": [
+   "Charts"
+  ]
+ },
+ {
+  "id": "uOjj_3S--oc",
+  "title": "The Easiest Way to Build a Donut Chart \ud83c\udf69 in Tableau",
+  "length": "2:48",
+  "views": 8900,
+  "date": "2025-06-12",
+  "dateApprox": true,
+  "tags": [
+   "Charts"
+  ]
+ },
+ {
+  "id": "BvEdbdChXyg",
+  "title": "Tableau KPI Visualization: Category Sales, Percentage of Total, and Trends",
+  "length": "10:38",
+  "views": 2900,
+  "date": "2025-06-12",
+  "dateApprox": true,
+  "tags": [
+   "KPI & Cards"
+  ]
+ },
+ {
+  "id": "nG9Z3POgRQQ",
+  "title": "How to Make Dynamic Alternating Bar Colors in Tableau: Consistent Across Any Axis & Filter",
+  "length": "2:03",
+  "views": 339,
+  "date": "2025-06-12",
+  "dateApprox": true,
+  "tags": [
+   "Filters & Interactivity"
+  ]
+ },
+ {
+  "id": "s7iTArMUVZA",
+  "title": "Tableau Interactive Date Picker: Choose Your Own Time Period and Range",
+  "length": "17:02",
+  "views": 1700,
+  "date": "2025-06-12",
+  "dateApprox": true,
+  "tags": [
+   "Filters & Interactivity"
+  ]
+ },
+ {
+  "id": "XtGbawTWjmg",
+  "title": "Beyond Basic Charts: Tableau Tutorial for a Modern Sales Tab",
+  "length": "50:26",
+  "views": 4300,
+  "date": "2025-06-12",
+  "dateApprox": true,
+  "tags": [
+   "Full Dashboard Builds",
+   "Charts",
+   "Design & UX"
+  ]
+ },
+ {
+  "id": "MvtjuSmMB9s",
+  "title": "Rounded Gradient Bar with Bubble Labels in Tableau for a Sleek, Modern Visualization",
+  "length": "3:32",
+  "views": 467,
+  "date": "2025-06-12",
+  "dateApprox": true,
+  "tags": [
+   "Charts",
+   "Design & UX"
+  ]
+ },
+ {
+  "id": "VtAfrydzEm8",
+  "title": "How to Design Radial Charts in Tableau with Rings That Reflect Real Percentages",
+  "length": "7:40",
+  "views": 816,
+  "date": "2025-06-12",
+  "dateApprox": true,
+  "tags": [
+   "Charts",
+   "Design & UX"
+  ]
+ },
+ {
+  "id": "QWHA1UcokMU",
+  "title": "How to Create a Gradient Radial Chart in Tableau for Stunning Visuals",
+  "length": "6:13",
+  "views": 419,
+  "date": "2025-06-12",
+  "dateApprox": true,
+  "tags": [
+   "Charts",
+   "Design & UX"
+  ]
+ },
+ {
+  "id": "W4G_XphQWA8",
+  "title": "How to Create a Diverging Bar Chart with Net Profit Comparison in Tableau",
+  "length": "14:03",
+  "views": 632,
+  "date": "2025-06-12",
+  "dateApprox": true,
+  "tags": [
+   "Charts"
+  ]
+ },
+ {
+  "id": "6iBa04Eh2aI",
+  "title": "Dynamic Filtering for Last X Quarters with String Fields (2024 Q1) - Perfect for Forecasted Data",
+  "length": "1:36",
+  "views": 188,
+  "date": "2025-06-12",
+  "dateApprox": true,
+  "tags": [
+   "Filters & Interactivity"
+  ]
+ },
+ {
+  "id": "FdcxBVgqWtM",
+  "title": "How to Create Segmented Donut Charts in Tableau for Financial KPIs",
+  "length": "5:53",
+  "views": 870,
+  "date": "2025-06-12",
+  "dateApprox": true,
+  "tags": [
+   "KPI & Cards",
+   "Charts"
+  ]
+ },
+ {
+  "id": "AXk49FUSkJs",
+  "title": "How to Create Intuitive KPI Dashboards in Tableau with Icons and Sparklines",
+  "length": "9:22",
+  "views": 4200,
+  "date": "2025-06-12",
+  "dateApprox": true,
+  "tags": [
+   "KPI & Cards",
+   "Charts",
+   "Design & UX"
+  ]
+ },
+ {
+  "id": "ToCZYtYLanM",
+  "title": "Rearrange Measure Names Under Measure Values in Tableau for a Cleaner Layout",
+  "length": "1:34",
+  "views": 457,
+  "date": "2025-06-12",
+  "dateApprox": true,
+  "tags": [
+   "Calculations & LOD"
+  ]
+ },
+ {
+  "id": "0AgGcytqSSI",
+  "title": "Fix Your Tableau Measure Name Headers: Edit Aliases for Clearer Dashboard Labels",
+  "length": "1:20",
+  "views": 1600,
+  "date": "2025-06-12",
+  "dateApprox": true,
+  "tags": [
+   "Quick Tips & Fixes"
+  ]
+ },
+ {
+  "id": "0zSeSwgNYHU",
+  "title": "Beyond Basic Charts: Tableau Tutorial for a Modern Overview Tab",
+  "length": "50:34",
+  "views": 30000,
+  "date": "2025-06-12",
+  "dateApprox": true,
+  "tags": [
+   "Full Dashboard Builds",
+   "Charts",
+   "Design & UX"
+  ]
+ },
+ {
+  "id": "aRpgOZLQtsI",
+  "title": "Tableau - Gradient Background with Translucent Rounded Containers: Subtle See-Through Effect",
+  "length": "4:00",
+  "views": 8500,
+  "date": "2025-06-12",
+  "dateApprox": true,
+  "tags": [
+   "Design & UX"
+  ]
+ },
+ {
+  "id": "j8RnTWohYXg",
+  "title": "Bar Chart with Customizable End Shapes in Tableau",
+  "length": "4:36",
+  "views": 387,
+  "date": "2025-06-12",
+  "dateApprox": true,
+  "tags": [
+   "Charts",
+   "Design & UX"
+  ]
+ },
+ {
+  "id": "gzfHOyFogJk",
+  "title": "Interactive Tabs with \u2018All\u2019 Option in Tableau: Easily Filter and View All Data Segments",
+  "length": "8:24",
+  "views": 1400,
+  "date": "2025-06-12",
+  "dateApprox": true,
+  "tags": [
+   "Filters & Interactivity"
+  ]
+ },
+ {
+  "id": "enXPK0gabEU",
+  "title": "Ultimate Tableau Search Feature: Find Anything, Anytime",
+  "length": "4:13",
+  "views": 3000,
+  "date": "2025-06-12",
+  "dateApprox": true,
+  "tags": [
+   "Filters & Interactivity"
+  ]
+ },
+ {
+  "id": "qmpki6OXpoE",
+  "title": "Freeze Grand Totals in Tableau: No More Scrolling!",
+  "length": "2:49",
+  "views": 1100,
+  "date": "2025-06-12",
+  "dateApprox": true,
+  "tags": [
+   "Tutorials"
+  ]
+ },
+ {
+  "id": "62ddD6oqrcM",
+  "title": "Create Interactive Start and End Date Slider Filter in Tableau \u2013 Step-by-Step Guide",
+  "length": "2:56",
+  "views": 5100,
+  "date": "2025-06-12",
+  "dateApprox": true,
+  "tags": [
+   "Filters & Interactivity"
+  ]
+ },
+ {
+  "id": "yN5HH281jX8",
+  "title": "Create a Gradient Area Line Chart with Custom Circular Markers in Tableau",
+  "length": "12:40",
+  "views": 615,
+  "date": "2025-06-12",
+  "dateApprox": true,
+  "tags": [
+   "Charts",
+   "Design & UX"
+  ]
+ },
+ {
+  "id": "zktnbeuIoSc",
+  "title": "Create a Multi-Color Gradient Bar Chart with Rounded Ends in Tableau | Unlimited Gradient Colors",
+  "length": "2:04",
+  "views": 1200,
+  "date": "2025-06-12",
+  "dateApprox": true,
+  "tags": [
+   "Charts",
+   "Design & UX"
+  ]
+ },
+ {
+  "id": "TPquStqYv5k",
+  "title": "How to Create Radial Bar Chart in Tableau",
+  "length": "9:03",
+  "views": 2200,
+  "date": "2025-06-12",
+  "dateApprox": true,
+  "tags": [
+   "Charts"
+  ]
+ },
+ {
+  "id": "6DsLYPtisCo",
+  "title": "Beyond Basic Charts: Tableau Dashboard Tutorial on Sales & Orders Insights (Superstore Data)",
+  "length": "1:00:00",
+  "views": 4500,
+  "date": "2025-06-12",
+  "dateApprox": true,
+  "tags": [
+   "Full Dashboard Builds",
+   "Charts"
+  ]
+ },
+ {
+  "id": "eYyO7wKFfDs",
+  "title": "Design Stunning KPI Cards in Tableau | Aesthetic Key Metrics",
+  "length": "12:37",
+  "views": 3800,
+  "date": "2025-06-12",
+  "dateApprox": true,
+  "tags": [
+   "KPI & Cards",
+   "Design & UX"
+  ]
+ },
+ {
+  "id": "s1Pze2JCLcw",
+  "title": "Create a Circular Progress Chart (Orbit) with Rounded Ends in Tableau",
+  "length": "6:53",
+  "views": 1600,
+  "date": "2025-06-12",
+  "dateApprox": true,
+  "tags": [
+   "Charts",
+   "Design & UX"
+  ]
+ },
+ {
+  "id": "E1ZIem3KFyw",
+  "title": "The BIGGEST Time-Saving Trick in Tableau! Instantly Access Unlimited Colors",
+  "length": "0:54",
+  "views": 373,
+  "date": "2025-06-12",
+  "dateApprox": true,
+  "tags": [
+   "Quick Tips & Fixes"
+  ]
+ },
+ {
+  "id": "85gs-tP0xuc",
+  "title": "Format One Worksheet and Apply It to All in Tableau with This Simple Trick",
+  "length": "1:19",
+  "views": 378,
+  "date": "2025-06-12",
+  "dateApprox": true,
+  "tags": [
+   "Design & UX",
+   "Quick Tips & Fixes"
+  ]
+ },
+ {
+  "id": "InMlkbGIa6c",
+  "title": "Boost Tableau Performance: Speed Up Dashboards by Reducing Extract Size",
+  "length": "2:00",
+  "views": 543,
+  "date": "2025-06-12",
+  "dateApprox": true,
+  "tags": [
+   "Tutorials"
+  ]
+ },
+ {
+  "id": "LLDUy_UqOYo",
+  "title": "Perfect Alignment in Tableau: Using Grid Lines to Align Objects and Annotations",
+  "length": "0:52",
+  "views": 1600,
+  "date": "2025-06-12",
+  "dateApprox": true,
+  "tags": [
+   "Design & UX"
+  ]
+ },
+ {
+  "id": "L77ik97GZcQ",
+  "title": "How to Format All Your Annotations at Once in Tableau",
+  "length": "1:09",
+  "views": 1400,
+  "date": "2025-06-12",
+  "dateApprox": true,
+  "tags": [
+   "Design & UX"
+  ]
+ },
+ {
+  "id": "13q4ONg77WI",
+  "title": "Step-by-Step Guide: Gradient Area Charts with Conditional Coloring in Tableau",
+  "length": "20:01",
+  "views": 1300,
+  "date": "2025-06-12",
+  "dateApprox": true,
+  "tags": [
+   "Charts",
+   "Design & UX"
+  ]
+ },
+ {
+  "id": "QrlQBiXY-70",
+  "title": "Gradient Conditional Coloring for Progress Line Charts with Circle Markers in Tableau",
+  "length": "4:31",
+  "views": 107,
+  "date": "2025-06-12",
+  "dateApprox": true,
+  "tags": [
+   "Charts",
+   "Design & UX"
+  ]
+ },
+ {
+  "id": "dmW6MjKP9ic",
+  "title": "Conditional Coloring for Progress Line Charts with Circle Markers in Tableau",
+  "length": "3:54",
+  "views": 130,
+  "date": "2025-06-12",
+  "dateApprox": true,
+  "tags": [
+   "Charts"
+  ]
+ },
+ {
+  "id": "iNXwRcjGfT8",
+  "title": "Creating Gradient Progress Line Charts with Matching Circle Markers in Tableau",
+  "length": "2:59",
+  "views": 322,
+  "date": "2025-06-12",
+  "dateApprox": true,
+  "tags": [
+   "Charts",
+   "Design & UX"
+  ]
+ },
+ {
+  "id": "fF2q0HNvCE8",
+  "title": "Creating Progress Line Charts with Circle Markers in Tableau",
+  "length": "2:05",
+  "views": 243,
+  "date": "2025-06-12",
+  "dateApprox": true,
+  "tags": [
+   "Charts"
+  ]
+ },
+ {
+  "id": "3tpdifjfa2c",
+  "title": "Partial Donut Chart in Tableau: Control Donut Visibility for Dial/Gauge Charts",
+  "length": "7:27",
+  "views": 7400,
+  "date": "2025-06-12",
+  "dateApprox": true,
+  "tags": [
+   "Charts"
+  ]
+ },
+ {
+  "id": "AZtXi1L7xr4",
+  "title": "Interactive Filtering: Time Period Buttons for Overlapping Dates in Tableau",
+  "length": "6:17",
+  "views": 1100,
+  "date": "2025-06-12",
+  "dateApprox": true,
+  "tags": [
+   "Filters & Interactivity"
+  ]
+ },
+ {
+  "id": "KkiIS8ZWJeY",
+  "title": "Using Toggles to Switch Metrics with Conditional Coloring in Tableau",
+  "length": "6:50",
+  "views": 3200,
+  "date": "2025-06-12",
+  "dateApprox": true,
+  "tags": [
+   "Filters & Interactivity"
+  ]
+ },
+ {
+  "id": "9NsflcPxlII",
+  "title": "Quickly Round and Format Numeric Text in Tableau: Combine Text and Numbers with Precision",
+  "length": "1:16",
+  "views": 356,
+  "date": "2025-06-12",
+  "dateApprox": true,
+  "tags": [
+   "Design & UX",
+   "Quick Tips & Fixes"
+  ]
+ },
+ {
+  "id": "J4uNhqbiYDA",
+  "title": "Creating KPIs with Conditional Formatting for Positive and Negative Changes in Tableau",
+  "length": "6:25",
+  "views": 5400,
+  "date": "2025-06-12",
+  "dateApprox": true,
+  "tags": [
+   "KPI & Cards",
+   "Design & UX"
+  ]
+ },
+ {
+  "id": "8olS9zJ-bSE",
+  "title": "Creating KPIs with Current Value and Percentage Change in Tableau",
+  "length": "2:50",
+  "views": 1500,
+  "date": "2025-06-12",
+  "dateApprox": true,
+  "tags": [
+   "KPI & Cards"
+  ]
+ },
+ {
+  "id": "UATawMrxF_k",
+  "title": "How to Create a Patterned Area Chart in Tableau",
+  "length": "7:27",
+  "views": 309,
+  "date": "2025-06-12",
+  "dateApprox": true,
+  "tags": [
+   "Charts"
+  ]
+ },
+ {
+  "id": "3GZl-Xpb4D4",
+  "title": "How to Create a Gradient Area Chart in Tableau",
+  "length": "8:11",
+  "views": 1200,
+  "date": "2025-06-12",
+  "dateApprox": true,
+  "tags": [
+   "Charts",
+   "Design & UX"
+  ]
+ },
+ {
+  "id": "4WGFJgV28Hw",
+  "title": "Beyond Basic Charts: Tableau Dashboard Tutorial on Market Trends & Business Goals",
+  "length": "52:52",
+  "views": 3000,
+  "date": "2025-06-12",
+  "dateApprox": true,
+  "tags": [
+   "Full Dashboard Builds",
+   "Charts"
+  ]
+ },
+ {
+  "id": "LUd5jadE_AM",
+  "title": "How to Add Glow Effect to a Sankey Chart in Tableau",
+  "length": "3:38",
+  "views": 222,
+  "date": "2025-06-12",
+  "dateApprox": true,
+  "tags": [
+   "Charts",
+   "Design & UX"
+  ]
+ },
+ {
+  "id": "ndwizHfWzJg",
+  "title": "How to Add Shadow Effect to a Sankey Chart in Tableau",
+  "length": "1:54",
+  "views": 149,
+  "date": "2025-06-12",
+  "dateApprox": true,
+  "tags": [
+   "Charts",
+   "Design & UX"
+  ]
+ },
+ {
+  "id": "FQAH4fNzC3o",
+  "title": "How to Add 3D Effect to a Sankey Chart in Tableau",
+  "length": "2:31",
+  "views": 346,
+  "date": "2025-06-12",
+  "dateApprox": true,
+  "tags": [
+   "Charts"
+  ]
+ },
+ {
+  "id": "tWTP8f_kNCI",
+  "title": "Multiple Paths with Multi-Select Sankey Charts in Tableau: View Multiple Data Flows in One Chart!",
+  "length": "23:42",
+  "views": 825,
+  "date": "2025-06-12",
+  "dateApprox": true,
+  "tags": [
+   "Charts",
+   "Quick Tips & Fixes"
+  ]
+ },
+ {
+  "id": "dlVY2VYfNlQ",
+  "title": "Circular Sankey Chart with Clustered Inflows and Outflows in Tableau",
+  "length": "3:14",
+  "views": 875,
+  "date": "2025-06-12",
+  "dateApprox": true,
+  "tags": [
+   "Charts"
+  ]
+ },
+ {
+  "id": "SN3VmwwXe64",
+  "title": "Highlight and Explore: Hover to Highlight Paths and Bars in Tableau Sankey Charts",
+  "length": "1:00",
+  "views": 575,
+  "date": "2025-06-12",
+  "dateApprox": true,
+  "tags": [
+   "Charts",
+   "Filters & Interactivity"
+  ]
+ },
+ {
+  "id": "Dr71w-lGMUU",
+  "title": "Triple the Insight: Building 3-Level Sankey Charts in Tableau",
+  "length": "12:23",
+  "views": 2900,
+  "date": "2025-06-12",
+  "dateApprox": true,
+  "tags": [
+   "Charts"
+  ]
+ },
+ {
+  "id": "A3jWZP3vass",
+  "title": "Basic Sankey Chart in Tableau: Step-by-Step Guide",
+  "length": "9:36",
+  "views": 1400,
+  "date": "2025-06-12",
+  "dateApprox": true,
+  "tags": [
+   "Charts"
+  ]
+ },
+ {
+  "id": "wRvUfBMPE1s",
+  "title": "Interactive Multi-Level Gradient Sankey Charts with Hover Highlighting and Linked Table in Tableau",
+  "length": "19:49",
+  "views": 1400,
+  "date": "2025-06-12",
+  "dateApprox": true,
+  "tags": [
+   "Charts",
+   "Filters & Interactivity",
+   "Design & UX"
+  ]
+ },
+ {
+  "id": "-1hSNQJTO7M",
+  "title": "Create Custom Checkbox Filter with Highlight Effect in Tableau",
+  "length": "6:26",
+  "views": 1600,
+  "date": "2025-06-12",
+  "dateApprox": true,
+  "tags": [
+   "Filters & Interactivity"
+  ]
+ },
+ {
+  "id": "9KEm66jeBbw",
+  "title": "Create Label Filters with Color-Matched Underline Legends in Tableau",
+  "length": "4:55",
+  "views": 763,
+  "date": "2025-06-12",
+  "dateApprox": true,
+  "tags": [
+   "Filters & Interactivity"
+  ]
+ },
+ {
+  "id": "75lJt9hF5fE",
+  "title": "Master Dual-Dimension Filtering in Tableau with Interactive Toggle Tables",
+  "length": "5:39",
+  "views": 819,
+  "date": "2025-06-12",
+  "dateApprox": true,
+  "tags": [
+   "Filters & Interactivity"
+  ]
+ },
+ {
+  "id": "KykdE-4i-rg",
+  "title": "Interactive Toggle Filters \u2013 Enhance UI and User Experience in Tableau",
+  "length": "5:40",
+  "views": 1200,
+  "date": "2025-06-12",
+  "dateApprox": true,
+  "tags": [
+   "Filters & Interactivity"
+  ]
+ },
+ {
+  "id": "Joqv3pZAluE",
+  "title": "Visualizing Customer Satisfaction: Star Rating Filter with Faces in Tableau",
+  "length": "5:27",
+  "views": 505,
+  "date": "2025-06-12",
+  "dateApprox": true,
+  "tags": [
+   "Filters & Interactivity"
+  ]
+ },
+ {
+  "id": "3dv2bAlhEoE",
+  "title": "Create Custom Checkbox Filters in Tableau",
+  "length": "5:40",
+  "views": 1700,
+  "date": "2025-06-12",
+  "dateApprox": true,
+  "tags": [
+   "Filters & Interactivity"
+  ]
+ },
+ {
+  "id": "eLpKQe6wbos",
+  "title": "Tableau Filter Alternatives: Turn Any Image/Text into an Interactive Filter!",
+  "length": "36:16",
+  "views": 1100,
+  "date": "2025-06-12",
+  "dateApprox": true,
+  "tags": [
+   "Filters & Interactivity"
+  ]
+ },
+ {
+  "id": "RmHqDTFoVyo",
+  "title": "Make Data Pop: Add Customer Logos to Tableau Tables for Easy Identification",
+  "length": "1:26",
+  "views": 310,
+  "date": "2025-06-12",
+  "dateApprox": true,
+  "tags": [
+   "Quick Tips & Fixes"
+  ]
+ },
+ {
+  "id": "2sqnrf63w_Y",
+  "title": "Mute or Eliminate Grey in Tableau Gradients: 2 Easy Methods!",
+  "length": "1:24",
+  "views": 314,
+  "date": "2025-06-12",
+  "dateApprox": true,
+  "tags": [
+   "Design & UX",
+   "Quick Tips & Fixes"
+  ]
+ },
+ {
+  "id": "AoKZ7zt95qE",
+  "title": "Gradient Line Charts with Color-Matched Circles & Dynamic Text Bubbles in Tableau",
+  "length": "5:33",
+  "views": 645,
+  "date": "2025-06-12",
+  "dateApprox": true,
+  "tags": [
+   "Charts",
+   "Design & UX"
+  ]
+ },
+ {
+  "id": "qmhG9TiIWN4",
+  "title": "2 Methods for Gradient Line Charts in Tableau in Just 1 Minute!",
+  "length": "1:11",
+  "views": 616,
+  "date": "2025-06-12",
+  "dateApprox": true,
+  "tags": [
+   "Charts",
+   "Design & UX",
+   "Quick Tips & Fixes"
+  ]
+ },
+ {
+  "id": "WtadT9d0bkI",
+  "title": "Elevate Your Tableau Design: How to Create Shadowed Rounded Boxes in Minutes!",
+  "length": "4:34",
+  "views": 4100,
+  "date": "2025-06-12",
+  "dateApprox": true,
+  "tags": [
+   "Design & UX",
+   "Quick Tips & Fixes"
+  ]
+ },
+ {
+  "id": "1n410BBICAw",
+  "title": "The Power of Dynamic Text in Tableau: Display Real-Time Measure Values on Your Dashboard",
+  "length": "1:40",
+  "views": 1900,
+  "date": "2025-06-12",
+  "dateApprox": true,
+  "tags": [
+   "Tutorials"
+  ]
+ },
+ {
+  "id": "J4eIk3hzsds",
+  "title": "How to Add Bordered Bar Charts (Rounded) with Gradient Magic in Tableau! \u2728",
+  "length": "1:48",
+  "views": 818,
+  "date": "2025-06-12",
+  "dateApprox": true,
+  "tags": [
+   "Charts",
+   "Design & UX"
+  ]
+ },
+ {
+  "id": "hQvD0Rb4_E0",
+  "title": "Increase Filter/Parameter Text Size in Tableau: Make Selections Stand Out!",
+  "length": "4:14",
+  "views": 3400,
+  "date": "2025-06-12",
+  "dateApprox": true,
+  "tags": [
+   "Filters & Interactivity"
+  ]
+ },
+ {
+  "id": "7krwzb6lYu0",
+  "title": "Did You Know You Can Create Modern Designs Like This in Tableau? \ud83e\udd2f",
+  "length": "34:13",
+  "views": 7300,
+  "date": "2025-06-12",
+  "dateApprox": true,
+  "tags": [
+   "Design & UX"
+  ]
+ },
+ {
+  "id": "J3LpN-Fl73g",
+  "title": "Quick Guide: Loading Any Image as Shapes in Tableau (1 Minute)",
+  "length": "0:52",
+  "views": 2100,
+  "date": "2025-06-12",
+  "dateApprox": true,
+  "tags": [
+   "Design & UX",
+   "Quick Tips & Fixes"
+  ]
+ },
+ {
+  "id": "V1LWb-pNEvA",
+  "title": "How to Create Line Graphs with Large Circle Markers and Embedded Values in Tableau",
+  "length": "2:06",
+  "views": 2000,
+  "date": "2025-06-12",
+  "dateApprox": true,
+  "tags": [
+   "Charts"
+  ]
+ },
+ {
+  "id": "OMlfHVud-JM",
+  "title": "Tableau Tutorial: Using Reference Lines to Make Text Visible for Dual Axis Chart",
+  "length": "1:23",
+  "views": 135,
+  "date": "2025-06-12",
+  "dateApprox": true,
+  "tags": [
+   "Charts"
+  ]
+ },
+ {
+  "id": "nFptXyivdQE",
+  "title": "How to Use Measure Names and Values in Calculated Fields in Tableau - Workaround Using Pivot",
+  "length": "2:01",
+  "views": 5700,
+  "date": "2025-06-12",
+  "dateApprox": true,
+  "tags": [
+   "Calculations & LOD"
+  ]
+ },
+ {
+  "id": "RS1AoJry98E",
+  "title": "Layered Dashboards in Tableau: Let Users Create Custom Views with Just a Few Clicks!",
+  "length": "18:08",
+  "views": 781,
+  "date": "2025-06-12",
+  "dateApprox": true,
+  "tags": [
+   "Filters & Interactivity"
+  ]
+ },
+ {
+  "id": "CZWtXjzsNpI",
+  "title": "Piece of Pie: Interactive Pie Chart Legends in Tableau with Filter Actions",
+  "length": "3:53",
+  "views": 1000,
+  "date": "2025-06-12",
+  "dateApprox": true,
+  "tags": [
+   "Charts",
+   "Filters & Interactivity"
+  ]
+ },
+ {
+  "id": "O7rGo7f3wtI",
+  "title": "Horizontal Legends in Tableau: Pivot Your Legends Easily",
+  "length": "3:02",
+  "views": 1400,
+  "date": "2025-06-12",
+  "dateApprox": true,
+  "tags": [
+   "Tutorials"
+  ]
+ },
+ {
+  "id": "VDy-bghWbc4",
+  "title": "Tableau Design Hack: Create Circle Legends with Custom Spacing and Size",
+  "length": "3:08",
+  "views": 992,
+  "date": "2025-06-12",
+  "dateApprox": true,
+  "tags": [
+   "Design & UX",
+   "Quick Tips & Fixes"
+  ]
+ },
+ {
+  "id": "gzzXSsDkHBA",
+  "title": "How to Increase Legend Size And Spacing in Tableau",
+  "length": "3:59",
+  "views": 2000,
+  "date": "2025-06-12",
+  "dateApprox": true,
+  "tags": [
+   "Tutorials"
+  ]
+ },
+ {
+  "id": "BF0mzNSmHhg",
+  "title": "Legendary Legends in Tableau: Control Sizes, Add Shapes, and Enable Filtering!",
+  "length": "20:30",
+  "views": 3100,
+  "date": "2025-06-12",
+  "dateApprox": true,
+  "tags": [
+   "Filters & Interactivity",
+   "Design & UX"
+  ]
+ },
+ {
+  "id": "xuXHVUAZUeY",
+  "title": "Grouped Side By Side Bar Chart in Tableau Without Splitting Axes",
+  "length": "4:27",
+  "views": 7900,
+  "date": "2024-06-12",
+  "dateApprox": true,
+  "tags": [
+   "Charts"
+  ]
+ },
+ {
+  "id": "xFM2wj1VE_k",
+  "title": "Unlimited Color Choices: Custom Color Palette in Tableau in 1 Minute",
+  "length": "1:06",
+  "views": 718,
+  "date": "2024-06-12",
+  "dateApprox": true,
+  "tags": [
+   "Design & UX",
+   "Quick Tips & Fixes"
+  ]
+ },
+ {
+  "id": "xe3yqDCov94",
+  "title": "Hide ABC in Tableau Fast: Vertical & Horizontal",
+  "length": "0:48",
+  "views": 2100,
+  "date": "2024-06-12",
+  "dateApprox": true,
+  "tags": [
+   "Quick Tips & Fixes"
+  ]
+ },
+ {
+  "id": "e6GQ8sZ8rsg",
+  "title": "Tableau Hack: Move Both Groups to Bottom of Axis | Display Multiple Groupings at Bottom",
+  "length": "3:23",
+  "views": 6000,
+  "date": "2024-06-12",
+  "dateApprox": true,
+  "tags": [
+   "Quick Tips & Fixes"
+  ]
+ },
+ {
+  "id": "orEEhU2TYYE",
+  "title": "Embed Visual in Tableau Tooltip: Use One Chart as a Visual in Another Chart",
+  "length": "1:03",
+  "views": 1100,
+  "date": "2024-06-12",
+  "dateApprox": true,
+  "tags": [
+   "Charts",
+   "Quick Tips & Fixes"
+  ]
+ },
+ {
+  "id": "_c8t7kVmoPU",
+  "title": "Customize X-Axis in Tableau: Grouped Side by Side Bar Chart - Dual Categories Without Splitting Axis",
+  "length": "14:01",
+  "views": 10000,
+  "date": "2024-06-12",
+  "dateApprox": true,
+  "tags": [
+   "Charts"
+  ]
+ },
+ {
+  "id": "CyU8HIcsrA8",
+  "title": "Raise the Bar: Multi-Colored Gradient Bar Charts in Tableau with Controllable Size and Positioning",
+  "length": "2:46",
+  "views": 1700,
+  "date": "2024-06-12",
+  "dateApprox": true,
+  "tags": [
+   "Charts",
+   "Design & UX"
+  ]
+ },
+ {
+  "id": "zO-vnyBDyLs",
+  "title": "Tableau Background: Easy Rounded Corner Boxes Layout",
+  "length": "3:00",
+  "views": 12000,
+  "date": "2024-06-12",
+  "dateApprox": true,
+  "tags": [
+   "Design & UX",
+   "Quick Tips & Fixes"
+  ]
+ },
+ {
+  "id": "N2YTTnqHe9Q",
+  "title": "How to Set Default Number Formatting in Tableau (Dynamic)",
+  "length": "1:12",
+  "views": 794,
+  "date": "2024-06-12",
+  "dateApprox": true,
+  "tags": [
+   "Design & UX"
+  ]
+ },
+ {
+  "id": "KkPEzE5G3NQ",
+  "title": "Stop Overlapping: Move Reference Line Values in Tableau (Quick 40 Sec Fix)",
+  "length": "0:46",
+  "views": 1000,
+  "date": "2024-06-12",
+  "dateApprox": true,
+  "tags": [
+   "Quick Tips & Fixes"
+  ]
+ },
+ {
+  "id": "axqMu94h1Zs",
+  "title": "Upgradient Your Tableau Bar Chart: Dual Layered Condition Based Gradients",
+  "length": "1:58",
+  "views": 1200,
+  "date": "2024-06-12",
+  "dateApprox": true,
+  "tags": [
+   "Charts",
+   "Design & UX"
+  ]
+ },
+ {
+  "id": "f328WwLRN7E",
+  "title": "Upgradient Your Tableau: Rainbow Double Rounded Bar Chart",
+  "length": "5:42",
+  "views": 497,
+  "date": "2024-06-12",
+  "dateApprox": true,
+  "tags": [
+   "Charts",
+   "Design & UX"
+  ]
+ },
+ {
+  "id": "VXj5O42YyIY",
+  "title": "Upgradient Your Tableau Bar Chart: 2 Color Gradient",
+  "length": "1:10",
+  "views": 1900,
+  "date": "2024-06-12",
+  "dateApprox": true,
+  "tags": [
+   "Charts",
+   "Design & UX"
+  ]
+ },
+ {
+  "id": "oZygyARzg98",
+  "title": "Raise the Bar: Mastering Double Sided Rounded Bar Charts in Tableau",
+  "length": "1:06",
+  "views": 1000,
+  "date": "2024-06-12",
+  "dateApprox": true,
+  "tags": [
+   "Charts",
+   "Design & UX"
+  ]
+ },
+ {
+  "id": "90dUHfErSJU",
+  "title": "Raise the Bar: Mastering Single Sided Rounded Bar Charts in Tableau",
+  "length": "2:44",
+  "views": 1600,
+  "date": "2024-06-12",
+  "dateApprox": true,
+  "tags": [
+   "Charts",
+   "Design & UX"
+  ]
+ },
+ {
+  "id": "EK933HAKHpo",
+  "title": "Rounded Gradient Bar Charts in Tableau: Dual-Layered Color Coding & Visuals in Tooltips",
+  "length": "10:50",
+  "views": 392,
+  "date": "2024-06-12",
+  "dateApprox": true,
+  "tags": [
+   "Charts",
+   "Design & UX",
+   "Quick Tips & Fixes"
+  ]
+ },
+ {
+  "id": "DgYQ1rOZ3b0",
+  "title": "How to Build a 4-Level Drill-Down Dashboard in Tableau with Set Actions",
+  "length": "3:38",
+  "views": 7600,
+  "date": "2024-06-12",
+  "dateApprox": true,
+  "tags": [
+   "Filters & Interactivity"
+  ]
+ },
+ {
+  "id": "gNaISvR3rPg",
+  "title": "Tableau Quick Tips: Turn Off Highlighting with Filter Actions",
+  "length": "1:19",
+  "views": 3600,
+  "date": "2024-06-12",
+  "dateApprox": true,
+  "tags": [
+   "Filters & Interactivity",
+   "Quick Tips & Fixes"
+  ]
+ },
+ {
+  "id": "cC6o84wBhOQ",
+  "title": "Tableau Dynamic Dashboard: Responsive Metrics & Smart Legends with Parameters",
+  "length": "8:29",
+  "views": 883,
+  "date": "2024-06-12",
+  "dateApprox": true,
+  "tags": [
+   "Filters & Interactivity"
+  ]
+ },
+ {
+  "id": "Y-h-Le2v8qU",
+  "title": "Dynamic Measure Switching in Tableau: Toggle Between Cost & Time with Parameters",
+  "length": "2:06",
+  "views": 2700,
+  "date": "2024-06-12",
+  "dateApprox": true,
+  "tags": [
+   "Filters & Interactivity"
+  ]
+ },
+ {
+  "id": "LRyXf_Pi-Dg",
+  "title": "Remove Grand Total Color in Tableau: A Simple Conditional Formatting Fix",
+  "length": "0:23",
+  "views": 2500,
+  "date": "2024-06-12",
+  "dateApprox": true,
+  "tags": [
+   "Design & UX",
+   "Quick Tips & Fixes"
+  ]
+ },
+ {
+  "id": "C-aYcFjkRYU",
+  "title": "Quick Tableau Tutorial: Create Rounded Corner Containers in Under 1 Minute",
+  "length": "1:07",
+  "views": 21000,
+  "date": "2024-06-12",
+  "dateApprox": true,
+  "tags": [
+   "Design & UX",
+   "Quick Tips & Fixes"
+  ]
+ },
+ {
+  "id": "QkaxAODu7hg",
+  "title": "Tableau Drill Down Dashboard: 3-Level Interactive Sales Analysis",
+  "length": "10:20",
+  "views": 3600,
+  "date": "2024-06-12",
+  "dateApprox": true,
+  "tags": [
+   "Filters & Interactivity"
+  ]
+ }
+]
